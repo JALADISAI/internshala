@@ -1,0 +1,28 @@
+/* ShowList.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: grey;
+}
+
+.show-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.show-details {
+  max-width: 50%;
+}
+
+/* Add more styles as needed */
